@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'IRANSansMobile(FaNum)';
+    src: url('IRANSansMobileFaNum-Bold.woff2') format('woff2'),
+    url('IRANSansMobileFaNum-Bold.woff') format('woff'),
+    url('IRANSansMobileFaNum-Bold.ttf') format('truetype'),
+    url('IRANSansMobileFaNum-Bold.svg#IRANSansMobileFaNum-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRANSansMobile(FaNum)';
+    src: url('IRANSansMobileFaNum.woff2') format('woff2'),
+    url('IRANSansMobileFaNum.woff') format('woff'),
+    url('IRANSansMobileFaNum.ttf') format('truetype'),
+    url('IRANSansMobileFaNum.svg#IRANSansMobileFaNum') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRANSansMobile(FaNum) UltraLigh';
+    src: url('IRANSansMobileFaNum-UltraLight.woff2') format('woff2'),
+    url('IRANSansMobileFaNum-UltraLight.woff') format('woff'),
+    url('IRANSansMobileFaNum-UltraLight.ttf') format('truetype'),
+    url('IRANSansMobileFaNum-UltraLight.svg#IRANSansMobileFaNum-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRANSansMobile(FaNum)';
+    src: url('IRANSansMobileFaNum-Light.woff2') format('woff2'),
+    url('IRANSansMobileFaNum-Light.woff') format('woff'),
+    url('IRANSansMobileFaNum-Light.ttf') format('truetype'),
+    url('IRANSansMobileFaNum-Light.svg#IRANSansMobileFaNum-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRANSansMobile(FaNum)';
+    src: url('IRANSansMobileFaNum-Medium.woff2') format('woff2'),
+    url('IRANSansMobileFaNum-Medium.woff') format('woff'),
+    url('IRANSansMobileFaNum-Medium.ttf') format('truetype'),
+    url('IRANSansMobileFaNum-Medium.svg#IRANSansMobileFaNum-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
