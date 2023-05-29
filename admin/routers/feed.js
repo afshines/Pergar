@@ -35,15 +35,17 @@ const RemoveFromLocationByIdAndMedia = async (id, media_id, location_id) => {
 
 const AddIntoLocationByIdAndMedia = async (id, media_id, location_id, limit) => {
 
+    console.log({ "_id": media_id, "locations/_id": location_id, "locations": { $elemMatch: { "rss._id": id } } });    ////test
+
 
     return await Media.find({ "_id": media_id, "locations/_id": location_id, "locations": { $elemMatch: { "rss._id": id } } })
         .exec()
         .then(async (media) => {
-
-            if (media.length == 0) {
+            console.log(media);    ////test
+          //  if (media.length == 0) {
                 return await Rss.findById(id).then(async function (rss) {
 
-                
+                    console.log(rss);      ////test
                     return await Media.update(
                         { "_id": media_id },
                         {
@@ -62,7 +64,7 @@ const AddIntoLocationByIdAndMedia = async (id, media_id, location_id, limit) => 
                         }
                     );
                 });
-            }
+        //    }
 
         });
 
